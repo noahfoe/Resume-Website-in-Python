@@ -1,0 +1,305 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Noah Foley Resume Website</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="{% static 'vendor/fontawesome-free/css/all.min.css' %}" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="{% static 'css/resume.min.css' %}" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Noah Foley</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static 'img/me.jpg' %}" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#portfolio">Coding Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Work Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#leadership">Leadership</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">Noah
+          <span class="text-primary">Foley</span>
+        </h1>
+        <div class="subheading mb-5">650 River Rd · San Marcos, TX 78666 · (903) 918-1598 ·
+          <a href="mailto:name@email.com">noahfoley6@gmail.com</a>
+        </div>
+        <p class="lead mb-5">Objective: Seeking an internship for Summer 2020.</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/noah-foley-6b98711a0/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/noahfoe">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://twitter.com/NFooley1999">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="portfolio">
+      <div class="w-100">
+        <h2 class="mb-5">Coding Portfolio</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="resume-content">
+            <a href="https://github.com/noahfoe/Matroid-Theory-Project">
+              <h3 class="mb-0">Matroid Theory Checker</h3>
+            </a>
+              <div class="subheading mb-3">Extra credit python project for Discrete Mathematics.</div>
+              <p>This program checks if in a given k elements and n sized array, supports Matroid Theory.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">May 2019</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="resume-content">
+            <a href="https://github.com/noahfoe/Sudoku-Solver">
+              <h3 class="mb-0">Sudoku Solver</h3>
+            </a>
+              <div class="subheading mb-3">Backtracking algorithm project in python.</div>
+              <p>This project will take any given sudoku board, as a list, and return both the original board and the board's solution.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">December 2019</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="resume-content">
+              <a href="https://github.com/noahfoe/Pacman-in-Pygame">
+                <h3 class="mb-0">Pacman</h3>
+              </a>
+              <div class="subheading mb-3">A remake of the original Pacman arcade game, made using the Pygame library in Python.</div>
+              <p>Each ghost has it's own "personalty." One of the ghosts uses the Breadth-First-Search Algorithm to find the shortest path to Pacman, another ghost likes to stay further away from Pacman, etc.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">December 2019</span>
+            </div>
+          </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+          <a href="https://github.com/noahfoe/InstagramBot">
+            <h3 class="mb-0">Instagram Bot</h3>
+          </a>
+            <div class="subheading mb-3">Simple web scraper written in Python with Selenium.</div>
+            <p>This project will return the list of users who you follow, but who are not following you back.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">January 2020</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+          <a href="https://noahfoleyresume.herokuapp.com/">
+            <h3 class="mb-0">Resume Website</h3>
+          </a>
+            <div class="subheading mb-3">This is my Resume on a website.</div>
+            <p>This project was made because I needed to make a resume and also wanted to learn how to make/upload websites.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">January 2020</span>
+          </div>
+        </div>
+
+    </section>
+
+<section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">Work Experience</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+          <a href="https://foley-rentals-inc.business.site/">
+            <h3 class="mb-0">Foley Rentals Inc.</h3>
+          </a>
+            <div class="subheading mb-3">Service Technician</div>
+            <p><b>Job Skills: </b><br> Delivery/Pickup Service <br> Janitorial <br> Customer Service Rep <br> Tire Repairman</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">November 2009 - Present</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+          <a href="#">
+            <h3 class="mb-0">Clayton Water Company</h3>
+          </a>
+            <div class="subheading mb-3">Water Meter Reader</div>
+            <p><b>Job Skills: </b><br> Communication <br> Safety Procedures</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">May 2015 - August 2017</span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Education</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Texas State University</h3>
+            <div class="subheading mb-3">Bachelor of Science</div>
+            <div>Computer Science</div>
+            <p>GPA: 3.43</p>
+            <div class="subheading mb-3">Double Minor</div>
+            <div>Mathematics and Communications</div>
+            <p>GPA: 3.67</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Exepected Graduation: December 2022</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Carthage High School</h3>
+            <div class="subheading mb-3">UIL Band: (Freshman - Junior)</div>
+            <div class="subheading mb-3">UIL JV Football: (Freshman)</div>
+            <div class="subheading mb-3">UIL Debate: (Sophomore/Senior)</div>
+            <div class="subheading mb-3">Crew Club: (Senior)</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">Graduated: May 2018</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
+
+        <div class="subheading mb-3">Known Programming Languages</div>
+        <ul class="list-inline langauges">
+          <li class="list-inline-item">
+            <p>Python<br>C++<br>C#<br>HTML5<br>CSS<br>JavaScript<br>Java<br>
+          </li>
+        </ul>
+
+        <div class="subheading mb-3">Volunteer Work</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Mission Carthage (40 Hours) in Carthage, Texas - Food Bank</li>
+          <li>
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Mt. Calvary Baptist Church (100 Hours) in Carthage, Texas - Sound Booth</li>
+          <li>
+        </ul>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="leadership">
+      <div class="w-100">
+        <h2 class="mb-5">Leadership</h2>
+        <p class="mb-0">Mt. Calvary Baptist Church - Member, Usher <br> </p> <!-- Add more leadership stuff -->
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+      <div class="w-100">
+        <h2 class="mb-5">Awards &amp; Certifications</h2>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            Microsoft Word Certification</li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            Microsoft Excel Expert Certification</li>
+          <li>
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            Placed 3rd in UIL Debate Regionals</li>
+          <li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="{% static 'vendor/jquery-easing/jquery.easing.min.js' %}"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="{% static 'js/resume.min.js' %}"></script>
+
+</body>
+
+</html>
